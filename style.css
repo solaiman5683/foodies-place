@@ -4,6 +4,51 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    background: white;
+    box-shadow: 0 0 20px #2828294f;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo-image {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 70%;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(100, 80, 80);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    transition: all 0.3s linear;
+}
+
+.nav-link:hover {
+    color: tomato;
+    font-size: 1.3rem;
+}
+
 .flexible {
     display: flex;
     justify-content: space-evenly;
